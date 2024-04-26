@@ -1,0 +1,269 @@
+*{
+    Padding:0px;
+    margin:0px;
+}
+
+body{
+    word-wrap: break-word ;
+    background-color:#2a3032ca ;
+}
+
+.header-1{
+    display:flex ;
+    flex-direction:row ;
+    width:100% ;
+    Height:100px ;
+    border-style:solid ;
+    border-color:#2a3032ca;
+    top:0px ;
+    position:fixed ;
+    Border-radius :10px ;
+    box-shadow :3px 3px 5px gray;
+    justify-content:space-around ;
+    align-items :center ;
+    text-align:center ;
+    background-color :#2a3032ca ;
+    z-index: 1000;
+}
+
+.img-head{
+    width:50px ;
+    Height:50px ;
+    box-shadow :3px 3px 5px gray;
+    cursor:pointer ;
+    Border-radius :5px ;
+}
+
+.word-head {
+    font-family : Serif ;
+    box-shadow :3px 3px 5px black ;
+    
+}
+
+.nav-2{
+    display :flex ;
+    flex-direction :row ;
+    padding-left: ;
+    align-items :center ;
+    margin-top :130px ;
+    box-shadow:3px 3px 5px gray ;
+    border-style: ;
+    width:100%;
+    height:100px;
+    position :static ;
+    border-color :#2a3032ca ;
+    Border-radius :20px ;
+    justify-content:center ;
+    
+}
+
+#input-nav{
+    Width:80% ;
+    Height :50px ;
+    background-color :#2a3032ca;
+    color :lightgray;
+    Border-radius:10px ;
+    border-color:#2a3032ca ;
+    box-shadow:3px 3px 5px black;
+    border:none ;
+    cursor :pointer ;
+}
+
+#input-nav2{
+    color :lightgray;
+    Border-radius:10px ;
+    box-shadow:3px 3px 5px gray;
+    border:none ;
+    cursor:pointer ;
+    padding-left:5px ;
+}
+
+/*Hii ni css ya header na nav */
+
+.mani-head{
+    margin-top:140px;
+    border-color:white ;
+    margin-left:50px ;
+    color:darkblue ;
+    cursor :pointer ;
+    Width:100px ;
+    margin-top:30px;
+    
+}
+.img-h3{
+    height :15px;
+    Width :20px;
+    cursor :pointer ;
+}
+
+.figure-A{
+    display :flex ;
+    flex-direction :row ;
+    align-items :center ;
+    justify-content :center ;
+    position :relative ;
+    Width :100%;
+    
+}
+
+/*figure {
+    display :flex ;
+    flex-direction :column ;
+    align-items :center ;
+    justify-content :center ;
+    position:fixed ;
+}*/
+
+.img-figu1{
+    Width :95% ;
+    margin-top :10px ;
+    Border-radius :10px ;
+    box-shadow :3px 3px 5px gray ;
+    cursor :pointer ;
+    filter :saturate(170%);
+    
+    
+    
+}
+
+.text-h3{
+    position:absolute ;
+    text-transform: uppercase; 
+    background-color :blueviolet ;
+    color :lightgray ;
+    padding-top :5px ;
+    padding-bottom :5px ;
+    Padding-left: 5px;
+    padding-right :5px;
+    Border-radius :5px ;
+    left:5%;
+    top:20px;
+    font-size :4px;
+    font-family :baskerville ;
+    cursor :pointer ;
+    
+    
+    
+}
+
+.text-p1{
+    word-wrap :break ;
+    font-size :30px ;
+    font-family :fantasy ;
+    position :absolute ;
+    color :blueviolet ;
+    bottom :30px ;
+    left:20px ;
+    cursor :pointer ;
+    text-shadow :2px 4px 3px black ;
+}
+
+.img-figu2{
+    Width :95% ;
+    margin-top :10px ;
+    Border-radius :10px ;
+    box-shadow :3px 3px 5px gray ;
+    cursor :pointer ;
+    filter :saturate(200%);
+    
+    
+    
+    
+}
+
+.text-h4{
+    position:absolute ;
+    text-transform: uppercase; 
+    background-color :blueviolet ;
+    color :lightgray ;
+    padding-top :5px ;
+    padding-bottom :5px ;
+    Padding-left: 5px;
+    padding-right :5px;
+    Border-radius :5px ;
+    left:5%;
+    top:20px;
+    font-size :4px;
+    font-family :baskerville ;
+    cursor :pointer ;
+    
+    
+    
+}
+
+.text-p2{
+    word-wrap :break-word ;
+    font-size :30px ;
+    font-family :fantasy ;
+    position :absolute ;
+    color :#70ff15 ;
+    bottom :30px ;
+    left:20px ;
+    cursor :pointer ;
+    text-shadow :2px 4px 3px black ;
+    
+}
+
+
+.figure-B{
+    display :flex ;
+    flex-direction :row ;
+    align-items :center ;
+    justify-content :center ;
+    position :relative ;
+    margin-top :20px ;
+
+}
+
+
+#figure-ft{
+    border-style :solid  ;
+    border-color :yellow ;
+    Width :100%;
+    Height :200px ;
+    margin-top :30px ;
+    background-color :white ;
+    Border-radius :5px ;
+}
+
+.mani-head1{
+    border-color:white ;
+    margin-left:50px ;
+    color:darkblue ;
+    cursor :pointer ;
+    margin-top:30px;
+}
+
+.div-foo{
+    Background-color :#679b95ac ;
+    text-align :center ;
+    color :lightgray ;
+    
+}
+
+h5, h4, p{
+    margin-top :10px ;
+}
+
+.terminal2{
+    Background-color:#104961d6;
+    color :lightgray ;
+    display :grid ;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-gap:10px ;
+    justify-content :center ;
+    align-items :center ;
+   
+    '
+}
+.terminal2 p{
+    Background-color :red ;
+    margin-bottom :10px ;
+    
+}
+
+.down{
+    Background-color : #679b95ac;
+    margin-top :20px ;
+    
+}
